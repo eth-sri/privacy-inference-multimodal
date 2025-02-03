@@ -1,0 +1,23 @@
+max_workers: 15
+model:
+  name: "gpt4v"
+  models_string: "gpt-4-vision-preview"
+  temperature: 0
+  max_tokens: 2000
+  batch_size: 16
+
+error_handling:
+  backoff_factor: 1
+  max_retries: 3
+
+data:
+  images: "dataset/images"
+  dataset: "dataset/dataset.jsonl"
+
+prompt:
+  type: "complex"
+  single: True
+
+results:
+  suffix: ""
+  path: ""

@@ -1,0 +1,20 @@
+max_workers: 15
+model:
+  name: "llava_1.5_13b"
+  models_string: "llava-hf/llava-1.5-13b-hf"
+  temperature: 0
+  max_tokens: 2000
+  batch_size: 16
+
+data:
+  images: "dataset/images"
+  dataset: "dataset/dataset.jsonl"
+
+prompt:
+  type: "oss"
+  single: True
+
+results:
+  suffix: ""
+  results_path: "results"
+  responses_path: "model_responses"

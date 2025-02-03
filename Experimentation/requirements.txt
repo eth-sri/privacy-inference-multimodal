@@ -1,0 +1,10 @@
+openai==1.6.1
+PyYAML==6.0.1
+pandas==2.2.0
+numpy==1.26.2
+matplotlib==3.8.2
+anyio==4.2.0
+tqdm==4.66.1
+Pillow==10.1.0
+pydantic==2.5.3
+google-generativeai==0.3.2
